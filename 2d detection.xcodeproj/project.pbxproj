@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D01E98422BEA74700CB7036 /* treasure.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01E98322BEA74700CB7036 /* treasure.png */; };
 		9DA5A88E21AED56D00E904AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5A88D21AED56D00E904AC /* AppDelegate.swift */; };
 		9DA5A89021AED56D00E904AC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5A88F21AED56D00E904AC /* art.scnassets */; };
 		9DA5A89221AED56D00E904AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5A89121AED56D00E904AC /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		9DA5A89A21AED56F00E904AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5A89821AED56F00E904AC /* LaunchScreen.storyboard */; };
 		9DA5A8A521AED56F00E904AC /* _d_detectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5A8A421AED56F00E904AC /* _d_detectionTests.swift */; };
 		9DA5A8B021AED56F00E904AC /* _d_detectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5A8AF21AED56F00E904AC /* _d_detectionUITests.swift */; };
+		9DCB39AF22BB87EB007ABA27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCB39AE22BB87EB007ABA27 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D01E98322BEA74700CB7036 /* treasure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure.png; sourceTree = "<group>"; };
 		9DA5A88A21AED56D00E904AC /* 2d detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2d detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA5A88D21AED56D00E904AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA5A88F21AED56D00E904AC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -42,13 +45,13 @@
 		9DA5A89421AED56D00E904AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DA5A89621AED56F00E904AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA5A89921AED56F00E904AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9DA5A89B21AED56F00E904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA5A8A021AED56F00E904AC /* 2d detectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2d detectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA5A8A421AED56F00E904AC /* _d_detectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_detectionTests.swift; sourceTree = "<group>"; };
 		9DA5A8A621AED56F00E904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA5A8AB21AED56F00E904AC /* 2d detectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2d detectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA5A8AF21AED56F00E904AC /* _d_detectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_detectionUITests.swift; sourceTree = "<group>"; };
 		9DA5A8B121AED56F00E904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCB39AE22BB87EB007ABA27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		9DA5A88121AED56D00E904AC = {
 			isa = PBXGroup;
 			children = (
+				9DCB39AE22BB87EB007ABA27 /* Default-568h@2x.png */,
 				9DA5A88C21AED56D00E904AC /* 2d detection */,
 				9DA5A8A321AED56F00E904AC /* 2d detectionTests */,
 				9DA5A8AE21AED56F00E904AC /* 2d detectionUITests */,
@@ -105,7 +109,8 @@
 				9DA5A89321AED56D00E904AC /* Main.storyboard */,
 				9DA5A89621AED56F00E904AC /* Assets.xcassets */,
 				9DA5A89821AED56F00E904AC /* LaunchScreen.storyboard */,
-				9DA5A89B21AED56F00E904AC /* Info.plist */,
+				9DA5A8B121AED56F00E904AC /* Info.plist */,
+				9D01E98322BEA74700CB7036 /* treasure.png */,
 			);
 			path = "2d detection";
 			sourceTree = "<group>";
@@ -123,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA5A8AF21AED56F00E904AC /* _d_detectionUITests.swift */,
-				9DA5A8B121AED56F00E904AC /* Info.plist */,
 			);
 			path = "2d detectionUITests";
 			sourceTree = "<group>";
@@ -232,9 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D01E98422BEA74700CB7036 /* treasure.png in Resources */,
 				9DA5A89021AED56D00E904AC /* art.scnassets in Resources */,
 				9DA5A89A21AED56F00E904AC /* LaunchScreen.storyboard in Resources */,
 				9DA5A89721AED56F00E904AC /* Assets.xcassets in Resources */,
+				9DCB39AF22BB87EB007ABA27 /* Default-568h@2x.png in Resources */,
 				9DA5A89521AED56D00E904AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VA88VU289Q;
 				INFOPLIST_FILE = "2d detection/Info.plist";
@@ -445,6 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "first-project-xcode-ar.-d-detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VA88VU289Q;
 				INFOPLIST_FILE = "2d detection/Info.plist";
@@ -463,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "first-project-xcode-ar.-d-detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
